@@ -1,0 +1,50 @@
+<div class="row">
+  <h1>{{ list.title }}</h1>
+</div>
+
+<div class="row search-form form-inline">
+  <div class="form-group">
+    <label for="search">Search:</label>
+    <input class="form-control" type="search" id="search" ng-model="list.search.text">
+  </div>
+
+  <div class="form-group">
+    <label for="num_days">Days:</label>
+    <input class="form-control" type="number" id="num_days" ng-model="list.search.numDays">
+  </div>
+
+  <div class="form-group">
+    <label for="countries">Country:</label>
+    <select
+      class="form-control"
+      id="countries"
+      ng-options="country.name as country.name for country in list.countries"
+      ng-model="list.search.country">
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="camping">
+      Camping:
+      <input type="checkbox" id="camping" ng-model="list.search.camping">
+    </label>
+    <label for="camping">
+      Cruise:
+      <input type="checkbox" id="cruise" ng-model="list.search.cruise">
+    </label>
+  </div>
+</div>
+
+<div class="row">
+  <h2>{{ results.length }} Results</h2>
+</div>
+
+<div class="row">
+  <div class="cols-xs-12 festival-result" ng-repeat="fest in results = (list.festivals | filter: list.search.text | days: list.search.numDays | camping: list.search.camping | cruise: list.search.cruise | filter: { country: list.search.country })">
+    <div><strong>Name:</strong> {{ fest.name }}</div>
+    <div><strong>Days:</strong> {{ fest.days }}</div>
+    <div>
+      <strong>Bands:</strong> {{ list.bandList(fest.bands) }}
+    </div>
+  </div>
+</div>

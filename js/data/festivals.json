@@ -1,0 +1,113 @@
+[
+  {
+    "name": "70,000 Tons of Metal",
+    "days": 4,
+    "country": "United States",
+    "camping": false,
+    "cruise": true,
+    "bands": [
+      {
+        "id": "1234",
+        "name": "Iced Earth",
+        "genre": "Power"
+      },
+      {
+        "id": "2341",
+        "name": "Cradle of Filth",
+        "genre": "Black"
+      },
+      {
+        "id": "3421",
+        "name": "Eluveitie",
+        "genre": "Folk"
+      },
+      {
+        "id": "4321",
+        "name": "Insomnium",
+        "genre": "Melodic Death"
+      },
+      {
+        "id": "3333",
+        "name": "Paradise Lost",
+        "genre": "Doom"
+      }
+    ]
+  },
+  {
+    "name": "Be Prog! My Friend",
+    "days": 2,
+    "country": "Spain",
+    "camping": false,
+    "cruise": false,
+    "bands": [
+      {
+        "id": "5678",
+        "name": "Opeth",
+        "genre": "Progressive"
+      },
+      {
+        "id": "6785",
+        "name": "Steven Wilson",
+        "genre": "Progressive"
+      },
+      {
+        "id": "7856",
+        "name": "Between the Buried and Me",
+        "genre": "Progressive"
+      },
+      {
+        "id": "5678",
+        "name": "Textures",
+        "genre": "Progressive"
+      }
+    ]
+  },
+  {
+    "name": "Hellfest",
+    "days": 3,
+    "country": "France",
+    "camping": true,
+    "cruise": false,
+    "bands": [
+      {
+        "id": "2222",
+        "name": "Gojira",
+        "genre": "Groove"
+      },
+      {
+        "id": "1111",
+        "name": "Deicide",
+        "genre": "Death"
+      },
+      {
+        "id": "3333",
+        "name": "Paradise Lost",
+        "genre": "Doom"
+      }
+    ]
+  },
+  {
+    "name": "Metal Days",
+    "days": 7,
+    "country": "Slovenia",
+    "camping": true,
+    "cruise": false,
+    "bands": [
+      {
+        "id": "7856",
+        "name": "Between the Buried and Me",
+        "genre": "Progressive"
+      },
+      {
+        "id": "4321",
+        "name": "Insomnium",
+        "genre": "Melodic Death"
+      },
+      {
+        "id": "4444",
+        "name": "Gama Bomb",
+        "genre": "Thrash"
+      }
+    ]
+  }
+]

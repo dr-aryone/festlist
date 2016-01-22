@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1234",
+    "name": "Iced Earth",
+    "genre": "Power Metal"
+  },
+  {
+    "id": "2341",
+    "name": "Cradle of Filth",
+    "genre": "Black"
+  },
+  {
+    "id": "3421",
+    "name": "Eluveitie",
+    "genre": "Folk"
+  },
+  {
+    "id": "4321",
+    "name": "Insomnium",
+    "genre": "Melodic Death"
+  },
+  {
+    "id": "5678",
+    "name": "Opeth",
+    "genre": "Progressive",
+  },
+  {
+    "id": "6785",
+    "name": "Steven Wilson",
+    "genre": "Progressive",
+  },
+  {
+    "id": "7856",
+    "name": "Between the Buried and Me",
+    "genre": "Progressive",
+  },
+  {
+    "id": "5678",
+    "name": "Textures",
+    "genre": "Progressive",
+  }
+]
